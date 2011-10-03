@@ -1,0 +1,11 @@
+<ivysettings>
+  <settings defaultResolver="default"/>
+  <resolvers>
+    <chain name="default">
+      <url name="gosu-lang">
+        <ivy      pattern="http://gosu-lang.org/downloads/ivy/[revision]/[type]s/[artifact].[ext]"/>
+        <artifact pattern="http://gosu-lang.org/downloads/ivy/[revision]/[type]s/[artifact].[ext]"/>
+      </url>
+    </chain>
+  </resolvers>
+</ivysettings>

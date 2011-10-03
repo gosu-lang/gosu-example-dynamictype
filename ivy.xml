@@ -1,0 +1,13 @@
+<ivy-module version="2.0">
+  <info organisation="gosu-example" module="dynamictype"/>
+  <configurations>
+    <conf name="compile"/>
+    <conf name="runtime" extends="compile"/>
+    <conf name="sources"/>
+  </configurations>
+  <dependencies>
+    <dependency org="gw" name="gosu" rev="0.8.6.1" conf="compile->api; runtime->run; sources->sources">
+      <exclude module="servlet-api"/>
+    </dependency>
+  </dependencies>
+</ivy-module>
