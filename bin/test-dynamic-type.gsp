@@ -1,4 +1,4 @@
-classpath "../dynamictype.jar, ."
+classpath "../target/dynamictype.jar, ."
 
 uses dynamic.Dynamic
 
