@@ -13,7 +13,6 @@ import gw.lang.reflect.ParameterInfoBase;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 /**
  */
@@ -66,9 +65,9 @@ public class DynamicMethodInfo extends MethodInfoBase implements IMethodCallHand
   }
 
   @Override
-  public Map<IType, List<IAnnotationInfo>> getDeclaredAnnotations()
+  public List<IAnnotationInfo> getDeclaredAnnotations()
   {
-    return Collections.emptyMap();
+    return Collections.emptyList();
   }
 
   @Override

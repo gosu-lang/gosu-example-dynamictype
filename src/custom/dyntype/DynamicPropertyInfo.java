@@ -10,7 +10,6 @@ import gw.lang.reflect.TypeSystem;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 /**
  */
@@ -50,9 +49,9 @@ public class DynamicPropertyInfo extends PropertyInfoBase implements IPropertyAc
   }
 
   @Override
-  public Map<IType, List<IAnnotationInfo>> getDeclaredAnnotations()
+  public List<IAnnotationInfo> getDeclaredAnnotations()
   {
-    return Collections.emptyMap();
+    return Collections.emptyList();
   }
 
   @Override
