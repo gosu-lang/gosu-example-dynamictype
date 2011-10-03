@@ -1,1 +1,22 @@
+This example demonstrates how to write a type loader for Gosu, and use it from your own Gosu code.
+
+You need to compile and package the Java code. Use Aardvark (http://vark.github.com), put it on
+your PATH, and run the default target in build.vark.
+    > vark build
+
+You now have a file target/dynamictype.jar.  This jar has a special line in its MANIFEST.MF which
+registers your type loader.
+
+Run the .gsp
+    > cd bin
+    > gosu test-dynamic-type.gsp
+
+Note the line at the top of the .gsp:
+    #!/usr/bin/env gosu
+If you're in a UNIX-type environment (e.g. Linux or OSX), you can directly execute the .gsp if
+gosu is on your path:
+    > cd bin
+    > ./test-dynamic-type.gsp
+
+
 Any questions? E-mail gosu-lang@googlegroups.com.
