@@ -1,5 +1,4 @@
-classpath ".."
-//typeloader custom.dyntype.DynamicTypeLoader
+classpath "../dynamictype.jar, ."
 
 uses dynamic.Dynamic
 
