@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!-- This file is here only to register the type loader, in the future this will be in the MANIFEST.MF file -->
-<module name="goober">
-  <typeloaders>
-    <typeloader class="custom.dyntype.DynamicTypeLoader"/>
-  </typeloaders>
-</module>

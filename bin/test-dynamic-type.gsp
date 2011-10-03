@@ -1,4 +1,6 @@
-classpath "../target/dynamictype.jar, ."
+#!/usr/bin/env gosu
+
+classpath "../target/dynamictype.jar"
 
 uses dynamic.Dynamic
 
